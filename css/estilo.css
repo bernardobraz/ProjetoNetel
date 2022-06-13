@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #101010;
+}
+
+nav#Links-uteis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+
+}
+
+nav#Links-uteis ul>li {
+    display: inline-block;
+    text-align: justify;
+    margin-right: 30px;
+}
+
+nav#Links-uteis ul>li>a {
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+
+
+}
+
+#banner {
+    height: 350px;
+    background-image: url("../assets/images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1#Texto-banner {
+    color: white;
+    font-size: 2.5rem;
+    background-color: transparent;
+
+}
+
+#Equipe {
+    text-align: center;
+}
+
+h2#Nossa-equipe {
+    color: white;
+    font-size: 2.5rem;
+    background-color: transparent;
+    padding: 25px;
+}
+
+#banners {
+    display: flex;
+    height: 450px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.caixa{
+ width: 25vw;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 20px;
+ color: white;
+ text-align: center;
+}
+
+p{
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.caixa>img {
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.botao{
+    display: flex;
+    border-style: solid;
+    align-items: center;
+
+}
+
+.botao > span{
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+.botao>img {
+    height: 28px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.laranja {
+    background-color: #c14000;
+}
+
+.verde {
+    background-color: #009987;
+}
+
+.amarelo {
+    background-color: #ffaa00;
+}
+
+#Sobre{
+    padding: 150px;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+
+#Sobre > img{
+    height: 350px;
+    align-items: flex-start;
+}
+
+
+h2#Sobre {
+    color: white;
+    font-size: 2.5rem;
+    padding: 25px;
+}
+
+.nosso-negocio{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1d1d1d;
+    color: white;
+}
+
+.btn {
+    background-color: transparent;
+    outline: none;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.btn-outlined-white {
+    border: 2px solid white;
+    color: white;
+}

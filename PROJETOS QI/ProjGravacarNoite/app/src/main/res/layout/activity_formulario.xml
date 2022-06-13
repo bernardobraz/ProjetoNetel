@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormularioActivity"
+    android:background="@color/cinza_campos">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAnunciar"
+        android:layout_width="262dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_btn"
+        android:backgroundTint="#FFA500"
+        android:fontFamily="sans-serif-light"
+        android:text="Anunciar"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLista"
+        android:layout_width="262dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/bg_btn"
+        android:backgroundTint="#FFA500"
+        android:fontFamily="sans-serif-light"
+        android:text="Carros Anunciados"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAnunciar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="272dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="4dp"
+        android:lineSpacingExtra="8sp"
+        android:text="G  r  a  v  a  C  a  r"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFA500"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.959"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="119dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_logo1" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="411dp"
+        android:layout_height="262dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/campos2"
+        app:layout_constraintBottom_toTopOf="@+id/btnAnunciar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/edtMarca"
+        android:layout_width="207dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_campo"
+        android:ems="10"
+        android:hint="Marca"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/edtKilometragem"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edtKilometragem"
+        android:layout_width="282dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_campo"
+        android:ems="10"
+        android:hint="Kilometragem"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/edtCor"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edtModelo"
+        android:layout_width="189dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_campo"
+        android:ems="10"
+        android:hint="Modelo"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/edtAno"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/edtMarca" />
+
+    <EditText
+        android:id="@+id/edtCambio"
+        android:layout_width="213dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/bg_campo"
+        android:ems="10"
+        android:hint="Câmbio"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edtPreco"
+        android:layout_width="180dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/bg_campo"
+        android:ems="10"
+        android:hint="Preço"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/edtCambio" />
+
+    <EditText
+        android:id="@+id/edtCombustivel"
+        android:layout_width="222dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_campo"
+        android:ems="10"
+        android:hint="Combustível"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/edtPreco"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/edtCor" />
+
+    <EditText
+        android:id="@+id/edtAno"
+        android:layout_width="113dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_campo"
+        android:ems="10"
+        android:hint="Ano"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/edtCombustivel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/edtKilometragem" />
+
+    <EditText
+        android:id="@+id/edtCor"
+        android:layout_width="174dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_campo"
+        android:ems="10"
+        android:hint="Cor"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/edtCambio"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

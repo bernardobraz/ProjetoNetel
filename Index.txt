@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <title>QI Escola e Faculdades - Home</title>
+            <meta charset = "UTF-8">
+            <meta nome="viewport" content="width = device-width; initial-scale = 1.0">
+            <meta nome = "description" content = "O site institucional das escolas e faculdades QI">
+            <meta nome = "keywords" content = "QI, Escola tecnica, curso técnico">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/estilo.css">
+        </head>
+        <body>
+            <nav id ="Links-uteis">
+                <article>
+                    <ul>
+                        <li>
+                            <a href="#">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="#">Unidades</a>
+                        </li>
+                        <li>
+                            <a href="#">Publicações</a>
+                        </li>
+                        <li>
+                            <a href="#">Trabalhe conosco</a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <ul>
+                        <li>
+                            <a href="https://web.whatsapp.com/">
+                                <i class = "fa-brands fa-whatsapp"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://br.linkedin.com/">
+                                <i class = "fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com.br">
+                                <i class = "fa-brands fa-google"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://pt-br.facebook.com/">
+                                <i class = "fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+            </nav>
+            <section id="menu-principal">
+                <img src="img/logo.png" alt="Logo da QI">
+                <section>
+                    <span>
+                    <i class="fa fa-user-circle"></i> Sou aluno
+                </span>
+                    <article>
+                        <button class="btn btn-outlined-red">Graduação</button>
+                        <button class="btn btn-outlined-red">Pós-graduação</button>
+                        <button class="btn btn-outlined-red">Cursos-técnicos</button>
+                        <button class="btn btn-outlined-red">Profissionalizantes</button>
+                        <button class="btn btn-outlined-red">Cursos EAD</button>
+                        <button class="btn btn-outlined-red">QI Fly</button>
+                        <button class="btn btn-red">Vestibular</button>
+                        
+                    </article>
+                </section>
+            </section>
+            <section id="banner"></section>
+            <article class="caixa-com-borda">
+                <h2>Institucional</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit unde sequi nam error excepturi ut velit inventore neque, illum impedit aliquam optio eum sunt, laudantium sapiente tempore culpa accusantium. Fugit!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit unde sequi nam error excepturi ut velit inventore neque, illum impedit aliquam optio eum sunt, laudantium sapiente tempore culpa accusantium. Fugit!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit unde sequi nam error excepturi ut velit inventore neque, illum impedit aliquam optio eum sunt, laudantium sapiente tempore culpa accusantium. Fugit!</p>
+            </article>
+            <article class="caixa-preenchida">
+                <h2>Lema</h2>
+                <q>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, earum. Dolor architecto quisquam deleniti, tenetur nostrum facilis optio ducimus sit.
+                </q>
+            </article>
+            <article class="caixa-com-borda">
+                <h2>Institucional</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit unde sequi nam error excepturi ut velit inventore neque, illum impedit aliquam optio eum sunt, laudantium sapiente tempore culpa accusantium. Fugit!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit unde sequi nam error excepturi ut velit inventore neque, illum impedit aliquam optio eum sunt, laudantium sapiente tempore culpa accusantium. Fugit!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit unde sequi nam error excepturi ut velit inventore neque, illum impedit aliquam optio eum sunt, laudantium sapiente tempore culpa accusantium. Fugit!</p>
+            </article>
+            <article class="caixa-preenchida">
+                <h2>Lema</h2>
+                <q>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, earum. Dolor architecto quisquam deleniti, tenetur nostrum facilis optio ducimus sit.
+                </q>
+            </article>
+        </body>
+    </html>
